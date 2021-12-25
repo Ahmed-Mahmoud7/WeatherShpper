@@ -32,7 +32,7 @@ mvn --version
 How to run tests
 In terminal:
 
-git clone https://github.com/ajkim0418/Java-Selenium-TestNG-Framework.git
+git clone https://github.com/Ahmed-Mahmoud7/WeatherShpper.git
 Change directory to the location of cloned project folder and run Maven clean
 
 mvn clean
