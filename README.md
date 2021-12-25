@@ -8,8 +8,8 @@ TestNG
 Maven
 Extent Reports and logging
 Prerequisites
-IDE (Eclipse)
-JDK (version 7 or 8)
+IDE (IntelliJ IDEA)
+JDK (version 8) or more
 Maven configuration
 Easy way to configure Maven (Mac)
 Click to view instructions
@@ -39,7 +39,7 @@ mvn clean
 To run the test
 
 mvn test
-Note: For the verifyLogin test case to pass, you must edit the SmokeTestSuite.xml and change the values for parameter "username" and "password" to a registered username/password
+
 Project components
 Page objects are in the directory src/main/java/pages
 Test classes are in the the directory src/test/java/tests
