@@ -27,9 +27,14 @@ public class Cart {
         return driver.getTitle();
     }
 
+
     public void clickOnPayWithCardButton () {
         wait.until(ExpectedConditions.elementToBeClickable(payWithCardButton));
         driver.findElement(payWithCardButton).click();
+    }
+
+    public void checkPaymentButtonIsExist() {
+        driver.findElement(payWithCardButton).isDisplayed();
     }
 
     public void enterCardsDetailes () {
