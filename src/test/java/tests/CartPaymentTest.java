@@ -12,7 +12,7 @@ public class CartPaymentTest extends BasePage {
     public void validateCurrentTempPageTitle() {
 
         Cart cart = new Cart(driver);
-        Assert.assertEquals(cart.getTitle(), "");
+        Assert.assertEquals(cart.getTitle(), "Cart Items");
         System.out.println("Test Run Success");
     }
 }

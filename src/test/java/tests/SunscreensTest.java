@@ -12,7 +12,7 @@ public class SunscreensTest extends BasePage {
     public void validateCurrentTempPageTitle() {
 
         Sunscreens sunscreen = new Sunscreens(driver);
-        Assert.assertEquals(sunscreen.getTitle(), "");
+        Assert.assertEquals(sunscreen.getTitle(), "The Best Sunscreens in the World!");
         System.out.println("Test Run Success");
     }
 

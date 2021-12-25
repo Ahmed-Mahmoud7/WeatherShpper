@@ -13,7 +13,7 @@ public class MoisturizersTest extends BasePage {
     public void validateCurrentTempPageTitle() {
 
          Moisturizers  moist = new Moisturizers(driver);
-         Assert.assertEquals(moist.getTitle(), "");
+         Assert.assertEquals(moist.getTitle(), "The Best Moisturizers in the World!");
          System.out.println("Test Run Success");
     }
 }
