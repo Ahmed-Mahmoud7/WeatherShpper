@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Sunscreens {
 
     By addFirstSunscreenButton =  By.xpath("(//button[contains(.,'Add')])[4]");
-    By addSecondSunscreenButton = By.xpath("//span[@class='_45mg'][contains(text(), 'Checkout')]");
+    By addSecondSunscreenButton = By.xpath("(//button[@class='btn btn-primary'][contains(.,'Add')])[6]");
     By cartIcon =  By.xpath("//button[@onclick='goToCart()'][contains(.,'Cart - 1 item(s)')]");
 
 
